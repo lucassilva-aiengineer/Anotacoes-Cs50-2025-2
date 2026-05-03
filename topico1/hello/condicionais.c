@@ -1,7 +1,24 @@
 #include <stdio.h>
 
 
-int main(void){
+void testeCondicional1(){
+
+    float preco; // Declaração 
+    preco = 10;  // Inicialização
+
+    if (preco > 10){
+        printf("Preco maior que 10.");
+
+    } else if (preco < 10){
+        printf("Preco menor que 10.");
+
+    } else {
+        printf("O preco so pode ser 10.");
+    }
+
+}
+
+void testeCondicional2(){
 
     float valorProduto = 30;
 
@@ -18,7 +35,33 @@ int main(void){
         printf("O valor do produto so pode ser maior que 30!");
     }
 
+}
+
+
+void operadores(){
+
+    /*
+        Operadores:
+    
+            Operadores são utilizados como comparadores 
+            lógicos. 
+
+            =
+            <
+            <=
+            >
+            >=
+            ==
+            !=
+        */
+}
+
+int main(void){
+
+    condicional();
+
 
     return 0; 
 }
+
 
